@@ -1,8 +1,10 @@
 {
-  "name": "lexi-theme",
-  "displayName": "Lexi's Theme",
-  "description": "",
-  "version": "1.0.0",
+  "name": "theme-lexifry",
+  "publisher": "alexfrydl",
+  "displayName": "Lexifry Theme",
+  "description": "A practical theme.",
+  "repository": "https://github.com/alexfrydl/vscode-theme",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.93.0"
   },
@@ -12,7 +14,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Lexi's Dark",
+        "label": "Lexifry Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/dark.json"
       }
