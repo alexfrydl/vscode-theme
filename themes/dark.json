@@ -10,29 +10,33 @@
   "semanticTokenColors": {
     // default
     "variable": "#FFFAF0",
-    "namespace": "#FFFAF0",
     "operator": "#FFFAF0",
     // keywords
     "keyword": "#fc0fc0",
     "operator.controlFlow": "#fc0fc0",
     "selfTypeKeyword:rust": "#fd5185",
     // values
-    "boolean": "#B1CCF3",
-    "formatSpecifier": "#95BFC3",
+    "boolean": "#FDA43A",
+    "formatSpecifier": "#FDA43A",
     "enumMember:rust": "#CEE686",
     // types
-    "builtinType": "#FDD50D",
-    "enum": "#FDD50D",
-    "struct": "#FDD50D",
-    "interface": "#FDA10D",
-    "derive": "#FDA10D",
-    "typeParameter": "#C4BA86",
+    "builtinType": "#9FF6FE",
+    "typeAlias": "#9FF6FE",
+    "enum": "#9FF6FE",
+    "struct": "#9FF6FE",
+    "interface": "#95BFC3",
+    "derive": "#95BFC3",
+    "typeParameter": "#A6BEBF",
+    // identifiers
+    "function": "#9683EC",
+    "method": "#9683EC",
+    "namespace": "#CFF8F7",
     // macros/etc.
-    "macro": "#FFBAE9",
-    "decorator": "#FFBAE9",
-    "deriveHelper:rust": "#FFBAE9",
-    "attributeBracket:rust": "#CE83DF",
-    "operator.mutable:rust": "#FFBAE9"
+    "macro": "#C4BEE4",
+    "decorator": "#C4BEE4",
+    "deriveHelper:rust": "#C4BEE4",
+    "attributeBracket:rust": "#C4BEE4",
+    "operator.mutable:rust": "#C4BEE4"
   },
   "tokenColors": [
     {
@@ -116,7 +120,17 @@
         "meta.brace.angle.ts"
       ],
       "settings": {
-        "foreground": "#C4BA86"
+        "foreground": "#A6BEBF"
+      }
+    },
+    {
+      "name": "punctuation (function-related)",
+      "scope": [
+        "punctuation.brackets.round.rust",
+        "meta.brace.round.ts"
+      ],
+      "settings": {
+        "foreground": "#A19CB8"
       }
     },
     {
@@ -154,7 +168,7 @@
         "entity.other.attribute-name.class.css punctuation"
       ],
       "settings": {
-        "foreground": "#9FF6FE"
+        "foreground": "#FDD50D"
       }
     },
     {
@@ -165,7 +179,7 @@
         "constant.character.escape"
       ],
       "settings": {
-        "foreground": "#95BFC3"
+        "foreground": "#FDA43A"
       }
     },
     // types
@@ -175,7 +189,7 @@
         "entity.name.type"
       ],
       "settings": {
-        "foreground": "#FDD50D"
+        "foreground": "#9FF6FE"
       }
     },
     // values
