@@ -31,6 +31,7 @@
     "function": "#9683EC",
     "method": "#9683EC",
     "namespace": "#CFF8F7",
+    "property": "#FFED9C",
     // macros/etc.
     "macro": "#C4BEE4",
     "decorator": "#C4BEE4",
@@ -42,7 +43,6 @@
     {
       "name": "reset",
       "scope": [
-        "support.type.property-name.json",
         "punctuation.support.type.property-name.begin.json",
         "punctuation.support.type.property-name.end.json"
       ],
@@ -208,14 +208,24 @@
         "constant.numeric"
       ],
       "settings": {
-        "foreground": "#CFF8F7"
+        "foreground": "#FDA43A"
+      }
+    },
+    // other
+    {
+      "name": "property names",
+      "scope": [
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#FFED9C"
       }
     },
     // html
     {
       "name": "HTML Tag Names",
       "scope": [
-        "entity.name.tag"
+        "support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#CE83DF"
