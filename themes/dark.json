@@ -1,5 +1,5 @@
 {
-  "name": "Lexa Pink",
+  "name": "Lexifry Dark",
   "colors": {
     "editor.background": "#16161d",
     "editor.foreground": "#FFFAF0",
@@ -16,8 +16,8 @@
     "operator.controlFlow": "#fc0fc0",
     "selfTypeKeyword:rust": "#fd5185",
     // values
-    "boolean": "#FDA43A",
-    "formatSpecifier": "#FDA43A",
+    "boolean": "#FDD50D",
+    "formatSpecifier": "#FDD50D",
     "enumMember:rust": "#CEE686",
     // types
     "builtinType": "#9FF6FE",
@@ -40,16 +40,6 @@
     "operator.mutable:rust": "#C4BEE4"
   },
   "tokenColors": [
-    {
-      "name": "reset",
-      "scope": [
-        "punctuation.support.type.property-name.begin.json",
-        "punctuation.support.type.property-name.end.json"
-      ],
-      "settings": {
-        "foreground": "#FFFAF0"
-      }
-    },
     {
       "name": "TSX components",
       "scope": [
@@ -168,7 +158,7 @@
         "entity.other.attribute-name.class.css punctuation"
       ],
       "settings": {
-        "foreground": "#FDD50D"
+        "foreground": "#FDA43A"
       }
     },
     {
@@ -179,7 +169,7 @@
         "constant.character.escape"
       ],
       "settings": {
-        "foreground": "#FDA43A"
+        "foreground": "#FDD50D"
       }
     },
     // types
@@ -199,7 +189,7 @@
         "constant.language"
       ],
       "settings": {
-        "foreground": "#B1CCF3"
+        "foreground": "#FDD50D"
       }
     },
     {
@@ -208,27 +198,28 @@
         "constant.numeric"
       ],
       "settings": {
-        "foreground": "#FDA43A"
+        "foreground": "#FDD50D"
       }
     },
-    // other
+    // JSON
     {
-      "name": "property names",
+      "name": "JSON property names",
       "scope": [
-        "support.type.property-name.json"
+        "support.type.property-name.json",
+        "support.type.property-name.json punctuation"
       ],
       "settings": {
-        "foreground": "#FFED9C"
+        "foreground": "#fc0fc0"
       }
     },
-    // html
     {
-      "name": "HTML Tag Names",
+      "name": "JSON string values",
       "scope": [
-        "support.type.property-name.json"
+        "source.json string",
+        "source.json string punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#CE83DF"
+        "foreground": "#FFFAF0"
       }
     }
   ]
