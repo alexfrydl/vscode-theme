@@ -32,6 +32,8 @@
     "method": "#9683EC",
     "namespace": "#CFF8F7",
     "property": "#FFED9C",
+    "tomlArrayKey": "#FFED9C",
+    "tomlTableKey": "#FFED9C",
     // macros/etc.
     "macro": "#C4BEE4",
     "decorator": "#C4BEE4",
@@ -239,6 +241,25 @@
       ],
       "settings": {
         "foreground": "#FFFAF0"
+      }
+    },
+    // TOML
+    {
+      "name": "TOML table names",
+      "scope": [
+        "support.type.property-name.table.toml"
+      ],
+      "settings": {
+        "foreground": "#fc0fc0"
+      }
+    },
+    {
+      "name": "TOML property names",
+      "scope": [
+        "support.type.property-name.toml"
+      ],
+      "settings": {
+        "foreground": "#FFED9C"
       }
     }
   ]
