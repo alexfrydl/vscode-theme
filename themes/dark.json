@@ -221,6 +221,25 @@
       "settings": {
         "foreground": "#FFFAF0"
       }
+    },
+    // YAML
+    {
+      "name": "YAML property names",
+      "scope": [
+        "entity.name.tag.yaml"
+      ],
+      "settings": {
+        "foreground": "#fc0fc0"
+      }
+    },
+    {
+      "name": "YAML unquoted strings",
+      "scope": [
+        "string.unquoted.plain.out.yaml"
+      ],
+      "settings": {
+        "foreground": "#FFFAF0"
+      }
     }
   ]
 }
