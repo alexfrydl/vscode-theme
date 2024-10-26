@@ -115,7 +115,9 @@
         "punctuation.definition.parameters.begin.tsx",
         "punctuation.definition.parameters.end.tsx",
         "punctuation.definition.tag.begin.tsx",
-        "punctuation.definition.tag.end.tsx"
+        "punctuation.definition.tag.end.tsx",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
       ],
       "settings": {
         "foreground": "#A19CB8"
@@ -225,7 +227,9 @@
     {
       "name": "HTML doctype",
       "scope": [
-        "meta.tag.metadata.doctype.html entity.name.tag.html"
+        "meta.tag.metadata.doctype.html entity.name.tag.html",
+        "meta.tag.metadata.doctype.html punctuation.definition.tag.begin.html",
+        "meta.tag.metadata.doctype.html punctuation.definition.tag.end.html"
       ],
       "settings": {
         "foreground": "#fc0fc0"
