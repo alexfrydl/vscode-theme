@@ -43,15 +43,6 @@
   },
   "tokenColors": [
     {
-      "name": "TSX components",
-      "scope": [
-        "support.class.component.tsx"
-      ],
-      "settings": {
-        "foreground": "#FFBAE9"
-      }
-    },
-    {
       "name": "comments",
       "scope": [
         "comment",
@@ -119,7 +110,12 @@
       "name": "punctuation (function-related)",
       "scope": [
         "punctuation.brackets.round.rust",
-        "meta.brace.round.ts"
+        "meta.brace.round.ts",
+        "meta.brace.round.tsx",
+        "punctuation.definition.parameters.begin.tsx",
+        "punctuation.definition.parameters.end.tsx",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx"
       ],
       "settings": {
         "foreground": "#A19CB8"
@@ -201,6 +197,25 @@
       ],
       "settings": {
         "foreground": "#FDD50D"
+      }
+    },
+    // JSX / TSX
+    {
+      "name": "TSX tag names",
+      "scope": [
+        "entity.name.tag.tsx"
+      ],
+      "settings": {
+        "foreground": "#9683EC"
+      }
+    },
+    {
+      "name": "TSX attribute names",
+      "scope": [
+        "entity.other.attribute-name.tsx"
+      ],
+      "settings": {
+        "foreground": "#FFED9C"
       }
     },
     // JSON
