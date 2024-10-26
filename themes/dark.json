@@ -149,7 +149,6 @@
       "scope": [
         "string",
         "punctuation.definition.string",
-        "meta.property-value.css",
         "entity.other.attribute-name.id.css",
         "entity.other.attribute-name.id.css punctuation",
         "entity.other.attribute-name.class.css",
@@ -184,7 +183,8 @@
     {
       "name": "keyword constants",
       "scope": [
-        "constant.language"
+        "constant.language",
+        "source.css support.constant"
       ],
       "settings": {
         "foreground": "#FDD50D"
@@ -193,29 +193,52 @@
     {
       "name": "numbers",
       "scope": [
-        "constant.numeric"
+        "constant.numeric",
+        "constant.other.color.rgb-value.hex.css"
       ],
       "settings": {
         "foreground": "#FDD50D"
       }
     },
-    // JSX / TSX
+    // HTML / etc.
     {
-      "name": "TSX tag names",
+      "name": "HTML tag names",
       "scope": [
-        "entity.name.tag.tsx"
+        "entity.name.tag.html",
+        "entity.name.tag.tsx",
+        "entity.name.tag.css"
       ],
       "settings": {
         "foreground": "#9683EC"
       }
     },
     {
-      "name": "TSX attribute names",
+      "name": "HTML attribute names",
       "scope": [
+        "entity.other.attribute-name.html",
         "entity.other.attribute-name.tsx"
       ],
       "settings": {
         "foreground": "#FFED9C"
+      }
+    },
+    {
+      "name": "HTML doctype",
+      "scope": [
+        "meta.tag.metadata.doctype.html entity.name.tag.html"
+      ],
+      "settings": {
+        "foreground": "#fc0fc0"
+      }
+    },
+    // CSS
+    {
+      "name": "CSS functions",
+      "scope": [
+        "support.function.misc.css"
+      ],
+      "settings": {
+        "foreground": "#9683EC"
       }
     },
     // JSON
